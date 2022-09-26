@@ -1,0 +1,29 @@
+body {
+    background-color:#CFF3CE;
+    text-align:center;
+}
+
+button {
+    background-color:#629460;
+    color:white;
+    Font-Family: 'Poppins', Sans-Serif;
+    width: 190px;
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 8px;
+    border:none;
+}
+
+button:hover {
+    background-color:#243119;
+}
+
+h1 {
+    Font-Family: 'Abril Fatface', Cursive;
+    font-weight:lighter
+}
+
+h2 {
+    Font-Family: 'Poppins', Sans-Serif;
+    font-weight:normal;
+}
