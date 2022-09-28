@@ -1,0 +1,30 @@
+/*
+MY COLOR PALETTE
+dark red 1 - #A20021
+pink 2 - #F52F57
+light orange 3 - #F79D5C
+dark orange 4 - #F3752B
+white 5 - #EDEDF4
+*/
+
+body {
+    background-color: #EDEDF4;
+    text-align:center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size:44px;
+    font-family: 'Courgette', cursive;
+    color: #A20021;
+    border:3px solid #F52F57;
+    padding:60px 30px 10px 30px;
+    margin:auto;
+}
+
+#highlight {
+    color:#F3752B;
+    font-weight: boldl
+}
