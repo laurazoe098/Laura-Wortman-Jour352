@@ -90,10 +90,11 @@ button {
     border:none;
     justify-content: center;
     width:300x;
-    margin:20px 20px 20px 90px;
+    margin:20px 20px 30px 85px;
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
+     
 }
 
 button a{
@@ -106,6 +107,7 @@ button:hover {
     text-decoration: none;
     
 }
+    
 
 #title{
     font-size: 18px;
@@ -162,10 +164,13 @@ li {
 }
    button {
     width:300x;
-    margin-left: 200px;
+    margin-left: 80px;
     margin-right: auto;
-    display: block;transition-property: all;
-     
+    border:none;
+     text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    
 
        
 } 
@@ -193,6 +198,13 @@ li {
 
 @media (min-width: 992px) {
     /*desktop*/
-  
+  button {
+    width:300x;
+    margin-left: 200px;
+    margin-right: auto;
+     
+
+       
+} 
 }
 
