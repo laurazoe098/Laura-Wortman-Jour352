@@ -3,77 +3,229 @@
     /*This media query targets any screen smaller than 576px wide (see below)*/
     h1{
         font-family: 'Lato', sans-serif; 
-        font-size: 60px;
+        font-size: 40px;
+        padding:0px 0px 0px 35px ;
+        font-weight: bold;
+        
+        
     }
     h2{
         font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        padding: 10px 10px 40px 20px;
+        
        
     }
-}
+
     h3{
-        font-family: 'Lato', sans-serif;
+        font-family: 'Playfair Display', serif;
         font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0px 10px 20px;
 }
 #first-image{
     width:100%;
-    margin:40px 0px 40px 0px;
+    margin:20px 0px 20px 0px;
 }
 #map{
    width:100%;
-    margin:40px 0px 40px 0px;
+    margin:20px 0px 20px 0px;
     align-content: center;
 }
 #second-image{
     width:100%;
-    margin:40px 0px 40px 0px;
+    margin:20px 0px 20px 0px;
 }
 #third-image{
     width:100%;
-    margin:40px 0px 40px 0px;
+    margin:20px 0px 20px 0px;
 }
 #fourth-image{
     width:100%;
-    margin:40px 0px 40px 0px;
+    margin:20px 0px 20px 0px;
 }
 #fifth-image{
     width:100%;
-    margin:40px 0px 40px 0px;
+    margin:20px 0px 20px 0px;
 }
 #sixth-image{
     width:100%;
-    margin:40px 0px 40px 0px;
+    margin:20px 0px 20px 0px;
 }
 #seventh-image{
     width:100%;
-    margin:40px 0px 40px 0px;
+    margin:20px 0px 20px 0px;
 }
 #eighth-image{
     width:100%;
-    margin:40px 0px 40px 0px;
+    margin:20px 0px 20px 0px;
 }
 
 p{
     font-family: 'Playfair Display', serif;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #header{
     width:100%;
-
-}
-
-footer {
-    font-family: 'Lato', sans-serif;
 }
     
+#topper {
+      width:100%;
+      background-size: cover;
+      background-position: center;
+  }
+
+
+
+blockquote {
+	position: relative;
+	margin: 40px 0;
+	padding: 10px;
+	border-radius: var(--border-rad);
+	border: 2px solid white;
+	box-shadow: 2px 2px 4px hsl(0 0% 0% / 20%);
+}
+
+
+
+blockquote::before {
+	content: "";
+	pointer-events: none;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: var(--border-rad);
+	box-shadow:
+		inset -2px -2px 1px hsl(0 0% 100%),
+		inset 2px 2px 4px hsl(0 0% 0% / 20%);
+}
+
+blockquote::after {
+	content: "❝";
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: -2px;
+	transform: translate(-50%, -50%);
+	width: 1.3em;
+	height: 1.3em;
+	background: white;
+	box-shadow: 0 4px 5px -1px hsla(0 0% 0% / 20%);
+	border-radius: 999px;
+	display: grid;
+	place-content: center;
+	padding-top: .5em;
+	color: var(--accent-color);
+	font-size: 36px;
+	font-style: normal;
+	text-indent: 0;
+}
+
+.quote-image {
+	width: 20%;
+    float: left;
+    padding: 10px 10px 50px 10px;
+    
+}
     
     
+
+cite {
+	display: block;
+	margin-top: 30px;
+	text-indent: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: 	#8A1538;
+}
+    
+
+    .photo-credit {
+  font-size: 10px;
+  font-style: italic;
+    }
+}
+
+
     @media (min-width: 576px) {
     /*Tablet-only styles here*/
     /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
-}
+        
+         h1{
+        font-family: 'Lato', sans-serif; 
+        font-size: 55px;
+        padding:0px 0px 10px 140px ;
+        font-weight: bold;
+        
+        
+    }
+    h2{
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+       
+    }
 
+    h3{
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0px 0px 0px;
+}
+        
+        p{
+    font-family: 'Playfair Display', serif;
+}
+        
+        h3{
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0px 10px 0px;
+}
+}
 @media (min-width: 992px) {
     /*Desktop-only styles here*/
-    /*This media query targets any screen that is at least 992px wide*/
+  /*This media query targets any screen that is at least 992px wide*/
+.quote-image {
+	width: 10%;
+    padding: 0px 10px 0px 0px;
+}
+    
+    h1{
+        font-family: 'Lato', sans-serif; 
+        font-size: 55px;
+        padding:0px 10px 10px 90px;
+        font-weight: bold;
+        
+        
+    }
+    h2{
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+       
+    }
+
+    h3{
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0px 0px 0px;
+}
+    p{
+    font-family: 'Playfair Display', serif;
+}
+    
+    h3{
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0px 10px 0px;
+}
+    
 }
 
 @media (min-width: 1200px) {
